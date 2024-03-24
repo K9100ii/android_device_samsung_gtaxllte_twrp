@@ -2,7 +2,7 @@
 /recovery	emmc	/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY	flags=backup=1
 /system		ext4	/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
 /system_image	emmc	/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM	flags=flashimg=1
-/data		ext4	/dev/block/platform/13540000.dwmmc0/by-name/USERDATA	flags=encryptable=footer;length=-20480
+/data		ext4	/dev/block/platform/13540000.dwmmc0/by-name/USERDATA
 /cache		ext4	/dev/block/platform/13540000.dwmmc0/by-name/CACHE
 /modem		emmc	/dev/block/platform/13540000.dwmmc0/by-name/RADIO	flags=backup=1;display="Modem"
 /modem-cdma	emmc	/dev/block/platform/13540000.dwmmc0/by-name/CDMA-RADIO	flags=backup=1;display="CDMA Modem";subpartitionof=/modem
